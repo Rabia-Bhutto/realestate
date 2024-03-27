@@ -1,0 +1,94 @@
+/* Font */
+@font-face
+{
+    src: url('../Fonts/Poppins/Poppins-Regular.ttf');
+    font-family: poppins;
+}
+
+*
+{
+    /* border: 1px solid black; */
+} 
+
+/* Font class */
+.pop-font
+{
+    font-family: poppins;
+}
+
+/* Background of Nav Bar */
+.bg-body-tertiary
+{
+    border-radius: 40px;
+}
+
+/* Nav Logo Text */
+.nav-head
+{
+    font-family: poppins;
+}
+
+/* Nav Bar button */
+.btn
+{
+    background: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: poppins;
+    /* font-size: 20px; */
+}
+
+/* 1st ul */
+.ul1
+{
+    background: white;
+    border-radius: 40px;
+    /* width: 700px; */
+}
+
+/* 2nd ul */
+.ul2
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Hero Section */
+.gradient-bg
+{
+    background: linear-gradient(to right, #c1dee8, #fbd9b9);
+    /* border: 1px solid black; */
+}
+
+/* Image of the Hero Section */
+.hero-img
+{
+    background: transparent;
+}
+
+/* Email Bar */
+.email
+{
+    width: 300px;
+    height: 50px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    border: none;
+}
+
+/* Email Button */
+.email-btn
+{
+    width: 100px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: -50px;
+    position: absolute;
+    z-index: 2;
+}
+
+
