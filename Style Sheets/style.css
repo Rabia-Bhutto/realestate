@@ -1,7 +1,7 @@
 /* Font */
 @font-face
 {
-    src: url('../Fonts/Poppins/Poppins-Regular.ttf');
+    src: url('../Fonts/Poppins-Regular.ttf');
     font-family: poppins;
 }
 
@@ -91,4 +91,26 @@
     z-index: 2;
 }
 
+.hover-none
+{
+    background-color: black !important;
+    color: white !important;
+}
 
+.hover-none:hover
+{
+    background-color: black !important;
+    color: white !important;
+}
+
+.hover-none2
+{
+    background-color: white !important;
+    color: black !important;
+}
+
+.hover-none2:hover
+{
+    background-color: white !important;
+    color: black !important;
+}
